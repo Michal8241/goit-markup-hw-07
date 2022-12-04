@@ -1,0 +1,38 @@
+.contact-links-footer {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &>.contact-links-footer__element {
+        padding-top: 30px;
+        margin: 0;
+        padding: 0;
+
+        &>.contact-links-footer__element--adress {
+            line-height: 30px;
+            color: $main-silver;
+            text-decoration: none;
+            
+        }
+        // &>.adress {
+        //     color: $main-white;
+        //     text-decoration: none;
+        // }
+
+        // &>.adress2 {
+        //     color: $main-silver;
+        //     text-decoration: none;
+        // }
+
+        // &>.adress1 {
+        //     color: $main-silver;
+        //     text-decoration: none;
+        // }
+
+        // &>.adress2[href^="mailto"] {
+        //     text-decoration: underline;
+        // }
+
+    }
+
+}

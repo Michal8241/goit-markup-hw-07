@@ -1,0 +1,38 @@
+.our-clients {
+    width: 1170px;
+    height: 100%;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &>.our-clients__title {
+        font-weight: 700;
+        font-size: 36px;
+        color: $black-main;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .clients {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 94px;
+
+        .client {
+            border: 1px solid $border-clients;
+            border-radius: 4px;
+            display: flex;
+            width: 170px;
+            height: 92px;
+            justify-content: center;
+            align-items: center;
+            fill: $main-silver;
+            transition: border-color 1s cubic-bezier(0.4, 0, 0.2, 1),
+                        fill 1s cubic-bezier(0.4, 0, 0.2, 1);
+        
+            &:hover {
+                fill: $main-blue;
+                border-color: $main-blue;
+            }
+        }
+    }
+}

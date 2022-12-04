@@ -1,0 +1,17 @@
+.social-footer-email {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 39px;
+    padding-top: 20px;
+
+    &>.social-footer-email__form {
+        display: flex;
+        flex-direction: column;
+
+        &>.social-footer-email__form--label {
+            font-size: 14px;
+            color: $main-white;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.name {
+
+    background-color: $main-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 148px;
+    flex-direction: column;
+
+
+    &>.name__span {
+        display: block;
+        font-size: 16px;
+        line-height: 16px;
+        color: $main-silver;
+
+        &:nth-child(1) {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 0.85em;
+            color: $black-main;
+            padding: 10px;
+        }
+    }
+
+
+}

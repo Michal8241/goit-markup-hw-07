@@ -1,0 +1,31 @@
+.navigation {
+    width: 40%;
+        display: flex;
+        justify-content: space-between;
+
+        &>.navigation__logo {
+            font-size: 26px;
+                font-weight: 700;
+                line-height: 0.83em;
+                letter-spacing: 0.03em;
+                text-align: left;
+                text-decoration: none;
+                color: $second-black;
+                &>.navigation__logo--link {
+                    text-decoration: none;
+                    color: inherit;
+
+                    &>.navigation__logo--link--part {
+                        font-family: Raleway;
+                        color: $main-blue;
+                    }
+                }
+
+        }
+        &>.navigation__links {
+            list-style: none;
+            width: 50%;
+            display: flex;
+            justify-content: space-around;  
+        }
+}

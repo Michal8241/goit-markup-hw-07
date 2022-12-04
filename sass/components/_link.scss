@@ -1,0 +1,18 @@
+.navigation-links__link {
+    color: $second-black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: color 1s cubic-bezier(0.4, 0, 0.2, 1);
+
+//    &>svg {
+//     margin-right: 10px;
+//    }
+   &:hover {
+    color: $main-blue;
+        transition: color 1s cubic-bezier(0.4, 0, 0.2, 1);
+   }
+
+
+}

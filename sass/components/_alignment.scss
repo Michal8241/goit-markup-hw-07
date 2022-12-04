@@ -1,0 +1,20 @@
+.alignment {
+    width: 338px;
+    height: 100%;
+    text-align: left;
+
+    &>.alignment__title-link {
+        text-decoration: none;
+        color: #000000;
+        &>.alignment__title-link__span {
+            text-decoration: none;
+            font-weight: bold;
+    
+            &>.alignment__title-link_span--web-word {
+                
+                font-family: Raleway;
+                color: $main-blue;
+            }
+        }
+    }
+}

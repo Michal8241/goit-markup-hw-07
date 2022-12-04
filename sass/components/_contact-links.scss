@@ -1,0 +1,27 @@
+.contact-links {
+    list-style: none;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    fill: $main-silver;
+
+    &>.contact-links__element {
+        &>.contact-links__element__link {
+            font-size: 14px;
+            color: $main-silver;
+            &:hover {
+                color: $main-blue;
+                fill: $main-blue;
+                transition: fill 1s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            &:focus {
+                color: $main-blue;
+                fill: $main-blue;
+                transition: fill 1s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+        }
+    }
+
+}

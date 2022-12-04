@@ -1,0 +1,9 @@
+.social-footer {
+    width: 244px;
+    margin-top: 26px;
+
+   &>.social-footer__encourage {
+        font-size: 14px;
+        color: $main-white;
+    }
+}
